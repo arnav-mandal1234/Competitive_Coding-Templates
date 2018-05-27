@@ -16,12 +16,10 @@ class Solution{
 	static LinkedList<Integer> l[];
 	static boolean b[];
 	static int v;
-	static long dp[];
 	
 	Solution(int n){
 		this.v = n;
 		b = new boolean[n];
-		dp = new long[n];
 		l = new LinkedList[n];
 		for(int i=0;i<n;i++)
 			l[i] = new LinkedList<Integer>();
