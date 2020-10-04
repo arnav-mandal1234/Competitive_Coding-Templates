@@ -7,6 +7,13 @@ public static int gcd(int a, int b)
         return gcd(b%a, a);
     }
 
+//-------------------------------------------lcm-------------------------------------------------//
+
+    static int lcm(int a, int b)
+    {
+        return (a / gcd(a, b)) * b;
+    }
+
 //-------------------------------------------Sieve of erathosthenes-------------------------------------------------//
 public static void sieve(int n)
     {
